@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    background-color: #292f36;
+    color: white;
+}
+
+.navbar {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    color: white;
+    align-items: center;
+}
+
+.name span {
+    color: #12f7d6;
+}
+
+.socials {
+    display: flex;
+
+    gap: 25px;
+}
+
+.socials h3 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.name h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.hrdiv {
+    height: 1px;
+    width: 90%;
+    background-color: rgba(154, 153, 153, 0.364);
+    margin: 0 5%;
+}
+
+.socials h3:hover {
+    color: #12f7d6;
+}
+
+.box:hover {
+    background-color: #111515;
+}
+
+.cbox a:hover,
+.icons-socials i:hover {
+    color: #98faec;
+}
+
+
+
+
+
+
+
+
+/* page1-intro */
+.page1-intro {
+    height: 800px;
+    display: grid;
+    align-items: center;
+    font-size: 150%;
+    color: white;
+}
+
+.pages {
+    height: 950px;
+}
+
+.intro-elements {
+    padding: 0px 360px;
+}
+
+
+.onlineintro h4 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 270;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin: 10px 0px 10px 20px;
+}
+
+
+.prof h1 {
+    margin: -60px 0px 70px -20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    color: #98faec;
+
+}
+
+.subitems p {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 120;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #98faec;
+}
+
+.subitems {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 120;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #98faec;
+}
+
+.prof-name h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-left: 20px;
+}
+
+.name-design {
+    color: #12f7d6;
+}
+
+.invite a {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: #12f7d6;
+}
+
+
+.invite i {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+/* page-2 */
+
+.aboutme {
+    height: 700px;
+    padding: 160px 150px 200px 200px;
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.aboutme-text {
+    display: flex;
+    align-items: end;
+    margin-bottom: 80px;
+}
+
+.aboutme-img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-left: 60px;
+    margin-top: 140px;
+
+}
+
+.aboutme-img i {
+    font-size: 20rem;
+    color: rgb(176, 176, 176);
+
+}
+
+.aboutme-desc {
+
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+.desc-text h3 {
+    margin-top: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.9rem;
+    color: #12f7d6;
+}
+
+.desc-text {
+
+    margin-top: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.desc-text p {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rows {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    align-items: center;
+    background-color: #1a1e23;
+
+
+}
+
+.box img {
+    /* border: 1px solid yellow; */
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: transparent;
+
+}
+
+.skillnav {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.underline {
+    width: 100px;
+    height: 1px;
+    background-color: #12f7d6;
+}
+
+
+/* contact-page */
+.contact-page {
+    width: 100%;
+    margin-top: -100px;
+    text-align: center;
+    height: 300px;
+}
+
+.texts h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-left: 20px;
+    color: #12f7d6;
+}
+
+.contact-boxes {
+    margin: 40px 0px;
+    gap: 40px;
+
+}
+
+.contact-boxes1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.icons-socials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 2rem;
+}
+
+.cbox a {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    color: rgb(189, 189, 189);
+    background-color: rgba(0, 0, 0, 0.149);
+    border-radius: 15px;
+}
+
+.icons-socials i {
+    color: rgb(189, 189, 189)
+}
